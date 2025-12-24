@@ -4,6 +4,7 @@ import store from "./store/store";
 import { Provider } from 'react-redux';
 import { SafeAreaView,SafeAreaProvider } from 'react-native-safe-area-context';
 import UniversalNavi from "./Navigation/Universal";
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 export default function App() {
   return (
