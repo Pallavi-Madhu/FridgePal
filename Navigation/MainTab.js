@@ -7,6 +7,7 @@ import Profile from "../src/pages/MainTabs/Profile";
 import { useTheme } from '@react-navigation/native';
 
 
+
 const Tab = createBottomTabNavigator();
 const MainTab = () => {
      const { colors } = useTheme();
